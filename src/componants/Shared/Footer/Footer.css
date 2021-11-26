@@ -1,0 +1,13 @@
+footer{
+    background-color: #2D3032;
+    color: white !important;
+
+}
+footer h6{
+    color:#ff4800ce ;
+    font-weight: lighter !important;
+}
+footer p a{
+    text-decoration: none;
+        font-family: 'Roboto';
+}

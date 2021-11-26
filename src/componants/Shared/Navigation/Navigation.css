@@ -1,0 +1,46 @@
+.navbar{
+    width: 100%;
+    background-color: #FF4800;
+    padding: 15px 0;
+}
+
+ .sticky-nav .nav-link{
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: black !important;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-menu{
+    position: absolute;
+    display: none !important;
+    transition: .5s;
+}
+
+ .dropdown:hover .dropdown-menu{
+    display: block !important;
+    transition: .5s;
+ }
+
+ @media only screen and (max-width: 768px) { 
+
+.nav-item{
+    display: block !important;
+}
+.nav-item .nav-link{
+   padding: 10px;
+}
+.nav-item .nav-link:hover{
+    background-color: #022057;
+    color: white !important;
+}
+
+.banner-text h1{
+    font-size: 2rem;
+    }
+
+ }

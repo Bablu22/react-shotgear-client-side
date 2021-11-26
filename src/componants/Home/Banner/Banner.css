@@ -1,0 +1,71 @@
+.top-banner{
+    background: url(../../../images/banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 300px 0;
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    right: 5%;
+    text-align: center;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.banner-text h1{
+font-size: 5rem;
+}
+.banner-text p{
+    font-family: 'Roboto', sans-serif;
+}
+.banner-text .banner-span{
+    color: #FF4800 !important;
+}
+.banner-btn{
+    margin-top: 50px;
+
+}
+
+.banner-btn a{
+text-decoration: none;
+color: white;
+position: relative;
+}
+.banner-btn a:hover{
+    color: #FF4800;
+}
+
+.banner-btn a::before{
+content: '';
+position: absolute;
+width: 50%;
+height: 2px;
+background-color: white;
+left: 120%;
+top: 50%;
+}
+.banner-btn a::after{
+content: '';
+position: absolute;
+width: 50%;
+height: 2px;
+background-color: white;
+right: 120%;
+top: 50%;
+}
+
+@media only screen and (max-width: 768px) { 
+
+   .banner-text{       
+       left: 50%;
+       transform: translate(-50%,-50%);
+       width: 100%;
+   }
+    .banner-text h1{
+        font-size: 3rem;
+        }
+    
+     }

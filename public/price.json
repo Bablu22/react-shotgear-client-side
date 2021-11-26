@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Weeding",
+        "title": "Attend only first day",
+        "price": 46.00,
+        "vat": 20.00,
+        "description": "Ongoing access to new product features and updates Adobe Portfolio for creating beautiful portfolio websites Adobe Fonts for access to thousands of fonts within your apps 100GB of cloud storage for seamless file sync and share Adobe Spark for easy ways to create graphics, web pages, and video stories"
+    },
+    {
+        "name": "Studio",
+        "title": "Attend only first day",
+        "price": 76.000,
+        "vat": 20.00,
+        "description": "Ongoing access to new product features and updates Adobe Portfolio for creating beautiful portfolio websites Adobe Fonts for access to thousands of fonts within your apps 100GB of cloud storage for seamless file sync and share Adobe Spark for easy ways to create graphics, web pages, and video stories"
+    },
+    {
+        "name": "Fashion",
+        "title": "Attend only first day",
+        "price": 96.00,
+        "vat": 20.00,
+        "description": "Ongoing access to new product features and updates Adobe Portfolio for creating beautiful portfolio websites Adobe Fonts for access to thousands of fonts within your apps 100GB of cloud storage for seamless file sync and share Adobe Spark for easy ways to create graphics, web pages, and video stories"
+    }
+]

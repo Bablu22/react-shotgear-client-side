@@ -1,0 +1,29 @@
+.about-section h2{
+    color: #242429;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+.about-section p{
+    color: gray;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.all-btn{
+    padding: 10px 50px;
+    border: 1px solid #FF4800;
+    transition: .5s;
+}
+.all-btn:hover{
+    background-color: #FF4800;
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px) { 
+
+    .about-section h2{
+        font-size: 2rem;
+        padding-top: 50px;
+
+    }
+  }
